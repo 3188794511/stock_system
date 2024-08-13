@@ -89,11 +89,5 @@ public class StockApplicationTest {
         bos.close();
         bis.close();
     }
-
-    @Test
-    void testPath() {
-        String path = StockApplicationTest.class.getClassLoader().getResource("").toString();
-        System.out.println(path);
-    }
 }
 
